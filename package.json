@@ -17,6 +17,7 @@
     "typecheck": "nx typecheck root",
     "pr": "nx run-many --targets=test:ci,build,typecheck --projects=root"
   },
+  "name":"lukas-table",
   "namespace": "@multi-type-row-table",
   "workspaces": [
     "./examples/react/basic",
