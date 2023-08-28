@@ -1,6 +1,5 @@
 {
   "private": true,
-  "repository": "https://github.com/tanstack/table.git",
   "scripts": {
     "clean": "npm exec --workspaces -c \"rm -rf build || true\"",
     "test": "(is-ci && npm run test:ci) || npm run test:dev",
@@ -18,7 +17,7 @@
     "typecheck": "nx typecheck root",
     "pr": "nx run-many --targets=test:ci,build,typecheck --projects=root"
   },
-  "namespace": "@tanstack",
+  "namespace": "@multi-type-row-table",
   "workspaces": [
     "./examples/react/basic",
     "./examples/react/bootstrap",
